@@ -1,0 +1,62 @@
+h1{
+    width: 150px;
+    height: 100px;
+    padding: 5px;
+    margin: 20px;
+    background-color: lightblue;
+    text-align: center;
+    transition: 0.5s linear;
+}
+
+/*
+#varyTest1 > h1 {
+    width: 200px;
+}
+
+#varyTest2 > h1 {
+    width: 100px;
+}
+
+#varyTest3 > h1 {
+    width: 300px;
+}*/
+
+.k-active > h1 {
+    background-color: lightcoral;
+}
+
+.k-prep-left {
+    perspective: 200px;
+}
+
+.k-prep-left > h1 {
+    background-color: lightseagreen;
+    transform: rotateY(50deg);
+}
+
+.k-prep-right {
+    perspective: 200px;
+}
+
+.k-prep-right > h1 {
+    background-color: lightseagreen;
+    transform: rotateY(-50deg)
+}
+
+.k-active-left {
+    perspective: 200px;
+}
+
+.k-active-right {
+    perspective: 200px;
+}
+
+.k-active-right > h1 {
+    background-color: lightslategray;
+    transform: rotateY(-25deg);
+}
+
+.k-active-left > h1 {
+    background-color: lightgoldenrodyellow;
+    transform: rotateY(25deg);
+}
